@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardsQ</string>
+    <string name="welcome">Welcome to CardsQ!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_navigation_bar">NavigationBar</string>
+    <string name="title_activity_list_item">ListItem</string>
+    <string name="title_activity_deck_list">DeckList</string>
+    <string name="navigation_drawer_my_q">My Q</string>
+    <string name="navigation_drawer_accomplishment">My Accomplishments</string>
+    <string name="navigation_drawer_my_creation">My Creations</string>
+    <string name="navigation_drawer_my_collection">Collections</string>
+    <string name="navigation_drawer_recommendation">Recommendations</string>
+    <string name="navigation_drawer_hot">What\'s Hot?</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="navigation_drawer_items">
+        <item>Current CardsQ</item>
+        <item>Accomplishments</item>
+        <item>Creations</item>
+        <item>Collections</item>
+        <item>Recommendations</item>
+        <item>What\'s Hot?</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="navigation_drawer_icons">
+        <item>@drawable/ic_action_person</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_action_view_as_list</item>
+    </array>
+
+    <string-array name="main_setting_list">
+        <item>Set Daily Review Time</item>
+        <item>Account Setting</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string name="title_activity_main_setting">Setting</string>
+
+</resources>
