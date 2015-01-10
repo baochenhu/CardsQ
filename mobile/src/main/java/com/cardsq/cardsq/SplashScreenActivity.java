@@ -2,10 +2,12 @@ package com.cardsq.cardsq;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 
 import com.cardsq.cardsq.navigation.NavigationDrawerActivity;
 
@@ -18,6 +20,9 @@ public class SplashScreenActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFormat(PixelFormat.RGBA_8888);
+        getWindow().addFlags(Window.FEATURE_NO_TITLE);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.splash_screen);
 
         new Handler().postDelayed(new Runnable() {
